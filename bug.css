@@ -1,0 +1,9 @@
+The following CSS code snippet intends to style a list item using the `:nth-child` pseudo-class to select every other item, but it doesn't work as expected:
+
+```css
+li:nth-child(even) {
+  background-color: #f0f0f0;
+}
+```
+
+The problem is that `:nth-child(even)` selects every other *element*, not every other *list item*. If there are other elements within the list, this selector will not behave as intended.
