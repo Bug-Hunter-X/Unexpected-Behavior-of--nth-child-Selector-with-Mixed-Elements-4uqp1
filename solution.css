@@ -1,0 +1,9 @@
+The following CSS code provides a corrected approach using `:nth-of-type`:
+
+```css
+li:nth-of-type(even) {
+  background-color: #f0f0f0;
+}
+```
+
+This ensures that only list items are styled, correctly applying the background color to every other list item, regardless of the presence of other element types within the list.
